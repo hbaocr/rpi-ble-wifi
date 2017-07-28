@@ -1,0 +1,19 @@
+{
+  "name": "ble-wifi-app",
+  "version": "1.0.0",
+  "description": "A simple node application to connect a BLE-enabled device to wifi",
+  "author": "Kristie D'Ambrosio-Correll <kristie@dc-creatives.com>",
+  "dependencies": {
+    "util": "*",
+    "bleno": "*",
+    "child_process": "*",
+    "os": "*",
+    "dotenv": "*",
+    "validator": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/DCreatives/ble-wifi-app"
+  },
+  "license": "MIT"
+}
