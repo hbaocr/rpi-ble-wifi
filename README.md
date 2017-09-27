@@ -13,7 +13,7 @@ Works in conjunction with the [RpiWifiConnect](https://github.com/DCreatives/Rpi
     
         apt-get install nodejs -y
     
-    Note: we have only tested this code for node 4.X.X
+    *Note: we have only tested this code for node 4.X.X*
 
 
 2. Install BLE tools:
