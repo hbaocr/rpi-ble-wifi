@@ -44,6 +44,10 @@ this line in your crontab:
 
 
 Once running the [RpiWifiConnect](https://github.com/DCreatives/RpiWifiConnect) app will always be able to find, pair and connect to your RPi.
+
+## ENV File
+
+We have provided an example environment file - feel free to generate your own UUID. If you choose to change your device name, you must do so with `raspi-config`. Note that any changes to the device name and UUID must also be replicated in the WifiConnect app [Config](https://github.com/DCreatives/RpiWifiConnect/blob/master/WifiConnect/Config.swift) object.
     
 
 
