@@ -21,4 +21,4 @@ sudo ifdown wlan0 && sudo ifup wlan0
 sleep 10
 
 # Check connectivity
-sh './shell_scripts/is_connected.sh'
+sh '/home/pi/rpi-ble-wifi/shell_scripts/is_connected.sh'

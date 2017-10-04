@@ -36,7 +36,7 @@ WifiCharacteristic.prototype.onWriteRequest = function(data, offset, withoutResp
 
 // Helper Functions
 function check_is_connected(callback) {
-    var command = 'sh ./shell_scripts/is_connected.sh';
+    var command = 'sh /home/pi/rpi-ble-wifi/shell_scripts/is_connected.sh';
     this._value = exec(command, []).toString();
     console.log('WifiCharacteristic - onReadRequest: value = ' + this._value);
 
@@ -50,7 +50,7 @@ function connect_to_wifi(data, callback) {
     var params = data.toString().split(",");
     console.log(data);
     console.log(params);
-    var command = 'sh ./shell_scripts/connect.sh ' + params[0] + ' ' + params[1];
+    var command = 'sh /home/pi/rpi-ble-wifi/shell_scripts/connect.sh ' + params[0] + ' ' + params[1];
     this._value = exec(command, []).toString();
     console.log('WifiCharacteristic - onWriteRequest: value = ' + this._value);
 
